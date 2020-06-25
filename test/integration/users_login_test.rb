@@ -1,7 +1,7 @@
 require 'test_helper'
 class UsersLoginTest < ActionDispatch::IntegrationTest
   def setup
-    @user = users(:michael)
+    @user = users(:rhico)
   end
   test "login with valid email/invalid password" do
     get login_path
